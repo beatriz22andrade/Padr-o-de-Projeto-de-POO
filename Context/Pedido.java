@@ -61,3 +61,24 @@ public class Pedido {
         return "Pedido #" + numero + " - Cliente: " + cliente.getNome() + " - Total: R$ " + calcularTotal();
     }
 }
+
+
+//
+
+public void RealixarPagamento(){
+
+
+}
+
+
+
+
+//
+public  iPagamentos{
+    boolean pagamentos = false;
+    void  realizarpagamentos();
+
+}
+
+
+//
