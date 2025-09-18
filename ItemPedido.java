@@ -1,3 +1,7 @@
+/* Essa classes faz associação entre o produto e 
+ * uma quantidade.
+ */
+
 public class ItemPedido {
     private Produto produto;
     private int quantidade;

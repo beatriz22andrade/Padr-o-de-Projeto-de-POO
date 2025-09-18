@@ -1,3 +1,7 @@
+/* Classe que herda de Cliente, que representa um cliente
+ * Pessoas Jurídica
+ */
+
 public class ClientePJ extends Cliente {
     private String cnpj;
 

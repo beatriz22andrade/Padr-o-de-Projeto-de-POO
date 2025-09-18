@@ -1,3 +1,5 @@
+/* Superclasse que representa um cliente qualquer */
+
 public class Cliente {
     private String nome;
     private String email;

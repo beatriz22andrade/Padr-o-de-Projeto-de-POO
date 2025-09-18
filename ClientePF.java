@@ -1,3 +1,7 @@
+/* Classe que herda de cliente, que representa um cliente
+ * Pessoa Física
+ */
+
 public class ClientePF extends Cliente {
     private String cpf;
 

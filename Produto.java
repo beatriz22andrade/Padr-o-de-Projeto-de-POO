@@ -1,3 +1,8 @@
+/**
+ * Representa um produto na loja, contendo nome, preço e 
+ * quantidade em estoque.
+ */
+
 public class Produto {
     private String nome; //private: acesso dentro da classe
     private double preco;

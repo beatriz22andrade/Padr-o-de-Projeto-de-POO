@@ -1,6 +1,10 @@
 import java.time.LocalDate;
 import java.util.ArrayList;
 
+/* Classe que faz a representa os produtos escolhidos
+ * por um cliente.
+ */
+
 public class Pedido {
     private int numero;
     private LocalDate data;
