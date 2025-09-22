@@ -5,6 +5,6 @@
 
 public class PagamentoPix implements IPagamentoStrategy{
     public void pagar(double valor){
-        System.out.println("Pagamento de R$" + valor + "no pix");
+        System.out.printf("Pagamento de R$ %.2f realizado com Pix.%n", valor);
     }
 }

@@ -1,0 +1,3 @@
+# Ignorar arquivos compilados
+bin/
+*.class

@@ -62,27 +62,6 @@ public class Pedido {
     }
 
     public String toString(){
-        return "Pedido #" + numero + " - Cliente: " + cliente.getNome() + " - Total: R$ " + calcularTotal();
+        return String.format("Pedido #%d - Cliente: %s - Total: R$ %.2f", numero, cliente.getNome(), calcularTotal());
     }
 }
-
-
-//
-
-public void RealixarPagamento(){
-
-
-}
-
-
-
-
-//
-public  iPagamentos{
-    boolean pagamentos = false;
-    void  realizarpagamentos();
-
-}
-
-
-//
