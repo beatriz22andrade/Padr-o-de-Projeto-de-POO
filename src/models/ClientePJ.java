@@ -1,4 +1,4 @@
-/* Classe que herda de Cliente, que representa um cliente
+package models;/* Classe que herda de models.Cliente, que representa um cliente
  * Pessoas Jurídica
  */
 

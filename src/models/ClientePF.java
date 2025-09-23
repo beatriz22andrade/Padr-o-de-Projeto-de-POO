@@ -1,4 +1,4 @@
-/* Classe que herda de cliente, que representa um cliente
+package models;/* Classe que herda de cliente, que representa um cliente
  * Pessoa Física
  */
 

@@ -1,4 +1,4 @@
-/* Superclasse que representa um cliente qualquer */
+package models;/* Superclasse que representa um cliente qualquer */
 
 public class Cliente {
     private String nome;
