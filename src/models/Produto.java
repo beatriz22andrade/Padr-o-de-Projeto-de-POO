@@ -1,3 +1,5 @@
+package models;
+
 /**
  * Representa um produto na loja, contendo nome, preço e 
  * quantidade em estoque.

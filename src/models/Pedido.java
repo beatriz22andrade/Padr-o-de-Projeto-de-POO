@@ -1,3 +1,5 @@
+package models;
+
 import java.time.LocalDate;
 import java.util.ArrayList;
 
@@ -62,6 +64,6 @@ public class Pedido {
     }
 
     public String toString(){
-        return String.format("Pedido #%d - Cliente: %s - Total: R$ %.2f", numero, cliente.getNome(), calcularTotal());
+        return String.format("models.Pedido #%d - models.Cliente: %s - Total: R$ %.2f", numero, cliente.getNome(), calcularTotal());
     }
 }

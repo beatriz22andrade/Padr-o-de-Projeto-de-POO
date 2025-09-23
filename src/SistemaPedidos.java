@@ -1,3 +1,13 @@
+import context.PagamentoContext;
+import models.ClientePF;
+import models.ClientePJ;
+import models.Pedido;
+import models.Produto;
+import concret_strategy.PagamentoCartaoCredito;
+import concret_strategy.PagamentoPix;
+import strategy.IPagamentoStrategy;
+
+
 import java.time.LocalDate;
 
 /**
@@ -42,17 +52,18 @@ public class SistemaPedidos {
 
         /* Define a estratégia */
         pagamentoContext.setStrategy(new PagamentoCartaoCredito());
-        System.out.print("Pedido 1: ");
+        System.out.print("models.Pedido 1: ");
         pagamentoContext.processarPagamento(pedido1);
         pedido1.setStatus("Pago");
 
         pagamentoContext.setStrategy(new PagamentoPix());
-        System.out.print("Pedido 2: ");
+        System.out.print("models.Pedido 2: ");
         pagamentoContext.processarPagamento(pedido2);
         pedido2.setStatus("Pago");
         
         System.out.println("\n--- Status Final dos Pedidos ---");
-        System.out.println("Status do Pedido 1: " + pedido1.getStatus());
-        System.out.println("Status do Pedido 2: " + pedido2.getStatus());
+        System.out.println("Status do models.Pedido 1: " + pedido1.getStatus());
+        System.out.println("Status do models.Pedido 2: " + pedido2.getStatus());
     }
 }
+

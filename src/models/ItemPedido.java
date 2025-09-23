@@ -1,4 +1,4 @@
-/* Essa classes faz associação entre o produto e 
+package models;/* Essa classes faz associação entre o produto e
  * uma quantidade.
  */
 
